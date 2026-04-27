@@ -8,3 +8,8 @@
     { "src": "/api/api", "dest": "/api/api.js" }
   ]
 }
+{
+  "routes": [
+    { "src": "/api/api", "dest": "/api/api.js" }
+  ]
+}
