@@ -1,3 +1,4 @@
+{"routes":[{"src":"/api/api","dest":"/api/api.js"}]}
 {
   "functions": {
     "api/api.js": {
@@ -5,11 +6,9 @@
     }
   },
   "routes": [
-    { "src": "/api/api", "dest": "/api/api.js" }
-  ]
-}
-{
-  "routes": [
-    { "src": "/api/api", "dest": "/api/api.js" }
-  ]
+    { "src": "/api/(.*)", "dest": "/api/$1" }
+  ],
+  "buildCommand": "echo 'No build needed'",
+  "outputDirectory": ".",
+  "installCommand": "echo 'No install needed'"
 }
